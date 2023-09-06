@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+}
+.app{
+  margin-top: 80px;  
+     width: 60%;
+     margin-left: 70px;
+} 
+.app h1{
+    color: white;
+    font-size: 45px;
+    padding:10px 0 ;
+    text-align: center;
+    border-radius: 5rem 5rem 5rem 0;
+    background-color: brown;
+}
+.app form{
+display: flex;
+width: 100%;
+background-color: #262e4c;
+}
+.app form input{
+    
+    background-color: #3c4979;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    width: 90%;
+    border-radius: 2rem 0 0 0;
+}
+.app form button{
+border: none;
+color: white;
+background-color: #1dd2af;
+font-size: 45px;
+font-weight: 550;
+height: 50px;
+width: 10%;
+}
+.app ul{
+    color: #e0e0e0;
+    padding: 0;
+}
+.app ul li{
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+}
+.check{
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    /* -webkit-appearance: none; */
+}
+.check:checked{
+    background-color: #1dd2af;
+}
+.task{
+    font-size: 18px;
+    padding: 0 10px;
+width: fit-content;
+background: transparent;
+color: white;
+
+}
+
+.task:focus{
+    outline: none;
+}
+.app ul li i{
+    float: right;
+    cursor: pointer;
+}
+.to ul li i:hover{
+color: rgb(255,82,82);
+}
+.completed{
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+}
